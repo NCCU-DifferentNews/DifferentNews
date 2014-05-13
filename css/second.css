@@ -1,0 +1,188 @@
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/reset.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/960.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/text.css);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+
+html {
+    background:url(http://subtlepatterns.com/patterns/tweed.png) ;
+    width:1024px; 
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#pagebtn{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+
+#contain{
+/* position: relative; */
+z-index: 10;
+padding-bottom: 3px;
+background: url(http://subtlepatterns.com/patterns/binding_dark.png) center 0;
+.
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.post{
+background: url(http://subtlepatterns.com/patterns/fabric_1.png);
+}
+
+#main-menu a{
+		text-decoration: none;
+		color:#ffffff;
+}
+/*
+#main-menu li{
+	display:inline;
+	float:left;
+	background: #f2dfcc;
+	font-size: 24px;
+	font-family: '微軟正黑體';
+	margin-left: 10px;
+	padding:5px 20px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+*/
+    
+#main-menu li{
+    display:inline;
+	float:left;
+    font-size: 24px;
+	font-family: '微軟正黑體';
+    text-decoration: none;
+    border:solid 2px #f55c5c;
+    border-radius:6px;
+	padding:5px 20px;
+	margin-left: 10px;
+    
+}  
+    
+#main-menu li:hover{
+    background: rgba(255,255,255,0.3);  
+}
+
+
+header{
+    margin-left:-25px;
+    margin-top: 35px;
+    width:1015px;
+    position:absolute;
+	height:120px;
+    color: #ffffff;
+    display:inline;
+	background: url(http://subtlepatterns.com/patterns/dark_stripes.png);
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+   .logo_img{
+   margin-top: 3px;
+   position: absolute;
+   display:  block;
+   margin-left:405px;
+   z-index: 9999;
+}
+
+#top_botton{
+    font-size:1.2em;
+    font-family: '微軟正黑體';
+    color:#c9c9c9;
+    position: relative;
+    float: right;
+    margin-top:50px;
+    text-shadow: 0px 2px 1px #3F372B;
+    text-align: right;
+}
+
+table td{
+	color:white;
+	font-family: '微軟正黑體';
+}
+table a{
+	color:#ffd409;
+	font-family: '微軟正黑體';
+	text-decoration: none;
+}
+#contain{
+	padding-top:200px;
+}
+table{
+	padding-top:2em;
+	
+
+}
+table td{
+	padding-bottom:2em; 
+}
+table p{
+	padding-right: 35px;
+    padding-left:5px; 
+}
+
+#pic{
+	margin-right:0px;
+}
+table td img{
+	padding-left: 5px;
+    border-left: solid 6px #ffc659;
+}
+//.pagebtnA{
+	font-family: '微軟正黑體';
+	font-size: 18px;
+	text-decoration: none;
+}
+.pagebtnA a{
+	font-family: '微軟正黑體';
+	font-size: 14px;
+	text-decoration: none;	
+	color:#c9c9c9;
+	padding:7px;
+	margin-right:5px;
+    background: rgba(0,0,0,0.6);
+}
+
+.pagebtnA a:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+.pagebtnA{
+	color:#c9c9c9;
+
+}
+
+.ab grid_8 omega{
+ 
+}
+
+.link:link, .link:visited, .link:active, .link:hover{
+  text-decoration: none ; 
+  color:#c9c9c9;
+}   
+
+.top-menu{
+  margin-top:15px;
+  margin-bottom:10px;    
+}
+
+footer {
+    display:table;
+    background:rgba(0,0,0,0.8);
+    color:#ffffff;
+	width:140%;
+    margin-left:-175px;
+	height:4em;
+    bottom: -1px;
+    font:10px/35px 'Ubuntu', serif;
+    text-align:center;
+    
+}

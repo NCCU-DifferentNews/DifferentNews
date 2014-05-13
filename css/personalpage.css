@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+html {
+    background:url(http://subtlepatterns.com/patterns/tweed.png) ;
+    width:1024px; 
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header{
+    margin-top: 35px;
+    margin-left:-20px;
+    width:1050px;
+    position:absolute;
+	height:120px;
+    color: #ffffff;
+    display:inline;
+	background: url(http://subtlepatterns.com/patterns/dark_stripes.png);
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+#content-wrapper {
+/* position: relative; */
+z-index: 10;
+margin-top: 5px;
+height: 170px;
+background: url(http://subtlepatterns.com/patterns/binding_dark.png) center 0;
+.
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.logo_img{
+    margin-top: 3px;
+    position: absolute;
+    display:  block;
+    margin-left:405px;
+    z-index: 9999;
+
+}
+
+#top_botton{
+    font-size:1.2em;
+    font-family: '微軟正黑體';
+    color:#c9c9c9;
+    position: relative;
+    float: right;
+    margin-top:50px;
+    text-shadow: 0px 2px 1px #3F372B;
+    margin-right: 30px;
+}
+.all{
+    z-index: 10;
+ background: url(http://subtlepatterns.com/patterns/binding_dark.png) center 0;
+ .
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+          padding-bottom: 10px;
+}
+.person{
+    
+    margin-left: 10%;
+}
+.title{
+
+   font-family:華康古印體;
+   color: white;
+   font-size: 60px;    
+   font-weight: bold;
+}
+.record{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.manto{
+    margin-top:30px;
+    font-family:華康古印體;
+    color: white;
+font-size: 30px;    
+font-weight: bold;
+}
+.history{
+    height: 500px;
+    background: yellow;
+    border : 5px solid;
+    color : #583238;
+    font-size: 30px;
+}
+
+.respond{
+    height: 500px;
+    background: yellow;
+    border : 5px solid;
+    color : #583238;
+    font-size: 30px;
+}
+
+footer {
+    display:table;
+    background:rgba(0,0,0,0.8);
+    color:#ffffff;
+	width:100%;
+	height:2.5em;
+    bottom: -1px;
+    font:10px/35px 'Ubuntu', serif;
+    text-align:center;
+    
+}
